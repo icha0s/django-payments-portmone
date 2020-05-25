@@ -27,7 +27,7 @@ setup(
     extras_require=extras_require,
     packages=find_packages(exclude=["tests", "scripts"]),
     install_requires=requirements,
-    python_requires=">=3.6,<3.8",
+    python_requires=">=3.6",
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Django",
