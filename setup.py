@@ -1,5 +1,6 @@
-from payments_portmone import __version__ as version
 from setuptools import find_packages, setup
+
+version = "0.1.0"
 
 requirements = ["Django>=1.11", "django-payments>=0.15"]
 
