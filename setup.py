@@ -1,8 +1,8 @@
 from setuptools import find_packages, setup
 
-version = "0.1.0"
+version = "0.1.1"
 
-requirements = ["Django>=1.11", "django-payments>=0.12"]
+requirements = ["django>=2.2", "django-payments>=0.12"]
 
 extras_require = {
     "test": ["pytest-cov", "pytest-django", "pytest"],
